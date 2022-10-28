@@ -9,11 +9,36 @@
   </head>
 
   <body>
-    <div id="root">
-    </div>
+   <h1>TV Show Episodes</h1>
+   <div id="header">
+    <select id="dropDown-shows"></select>
+    <select id="dropDown-episodes">
+      <option value="selected">Select any episodes</option>
+    </select>
+<!---form--->
+<div id="search-div">
+  <input id="searchBar" placeholder="Search..." type="text"/>
+  <h3 id="count">Showing 73/73 shows</h3>
+</div>
+<!--content-->
+<div>
+  <ul id="all-cards"></ul>
+</div>
 
+   </div>
+   <div>
+    <p id="count"></p>
+   </div>
+     <div id="cardsWrapper"></div>
+    <footer class="tv-maze-footer">
+      <p>
+   <a href="https://www.tvmaze.com/"><em>Tv-maze</em></a>
+     </p>
+    </footer>
+  </body>
     <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
     <script src="episodes.js"></script>
+    <script src="shows.js"></script>
 
     <!-- Loads YOUR javascript code -->
     <script src="script.js"></script>
