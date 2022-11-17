@@ -1,5 +1,7 @@
 # TV Show DOM Project
 
+My solution project is deployed here. https://cyf-justinas-brazauskas-fda892.netlify.app/
+
 A starting point for CYF's TV show DOM project
 
 The requirements for the project are here:
